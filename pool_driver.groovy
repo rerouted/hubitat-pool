@@ -102,7 +102,7 @@ def formatUnit(){
 }
 
 def ForcePoll(){
-    if(logSet == true){log.debug "PC: Poll called"}
+    if(logSet == true){log.debug "Pool Controller: Poll called"}
     state.NumOfPolls = (state.NumOfPolls) + 1
 	poll1()	
 }
